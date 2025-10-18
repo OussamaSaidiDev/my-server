@@ -9,7 +9,7 @@ import java.util.Map;
 @Data
 @NoArgsConstructor
 public class HttpResponse {
-    private String version;  // Set when parsing request or creating response
+    private String version;
     private int status;
     private Map<String, String> headers = new HashMap<>();
     private String body;
